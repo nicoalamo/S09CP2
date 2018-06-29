@@ -51,7 +51,8 @@ class Course
 
   end
 
-  #Course.check_beggin_date('2017-05-01')
+  Course.check_beggin_date('2017-05-01')
+  puts ''
   Course.check_final_date('2017-09-01')
 
 
